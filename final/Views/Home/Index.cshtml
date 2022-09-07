@@ -1,0 +1,1111 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shahid Afridi Foundation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="device-width , initial-scale=1.0">
+
+    <script type="text/javascript" src="Bootstrap/jQuery/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="Bootstrap/js/vendor/popper.min.js"></script>
+    <script type="text/javascript" src="Bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="javascript.js"></script>
+
+</head>
+
+<body>
+    <header>
+
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+            </ul>
+            <!-- carousel-inner -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/health.jpg">
+                    <div class="carousel-caption">
+                        <h2><span class="bg-dark text-light px-2">Health is not valued till sickness comes</span></h2>
+                    </div> <!--End of Carousel-caption-->
+                </div> <!--End of Carousel-item-->
+                <div class="carousel-item ">
+                    <img src="img/cleanwater.jpg">
+                    <div class="carousel-caption">
+                        <h2><span class="bg-dark text-light px-2">Water is life let us not waste it</span></h2>
+                    </div> <!--End of Carousel-caption-->
+                </div> <!--End of Carousel-item-->
+                <div class="carousel-item ">
+                    <img src="img/education.jpg">
+                    <div class="carousel-caption">
+                        <h2><span class="bg-dark text-light px-2">Education can change millions of lives</span></h2>
+
+                    </div> <!--End of Carousel-caption-->
+                </div> <!--End of Carousel-item-->
+                <div class="carousel-item">
+                    <img src="img/baner4.jpg">
+                    <div class="carousel-caption">
+                        <h2><span class="bg-dark text-light px-2">The Humanitarian within us cares about us</span></h2>
+                    </div> <!--End of Carousel-caption-->
+                </div> <!--End of Carousel-item-->
+            </div> <!--End of Carousel-inner-->
+            <!--Carousel Controls -->
+            <a href="" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+            <a href="" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+        </div> <!--End of Carousel -->
+        <!-- Sticky Icons  -->
+        <div class="sticky-icon">
+            <ul>
+                <li class="health">
+                    <div class="content">
+                        <a href="">
+                            <img src="img/heartStickyIcon.png">
+                            <div class="icon-text">
+                                <h5>Health</h5>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="education">
+                    <div class="content">
+                        <a href="">
+                            <img src="img/eduStickyIcon.png">
+                            <div class="icon-text">
+                                <h5>Education</h5>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="water">
+                    <div class="content">
+                        <a href="">
+                            <img src="img/waterStickyIcon.png">
+                            <div class="icon-text">
+                                <h5>Clean Water</h5>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="other">
+                    <div class="content">
+                        <a href="">
+                            <img src="img/otherStickyIcon.png">
+                            <div class="icon-text">
+                                <h5>Other Causes</h5>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header> <!--  End of header -->
+
+    <main>
+        <section class="wellcome-section">
+            <div class="container">
+                <!--Top Wellcome-section -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="content">
+                            <h2>Wellcome to<br /> Shahid Afridi Foundation</h2>
+
+                            <p>We are an integrated community aimed to improve the lives of the underprivileged through various efforts aimed at refining the state of Healthcare and Education within the country and providing clean and safe drinking water.</p>
+                        </div> <!--End of content-->
+                    </div>	<!--End of col-md-12-->
+                </div> <!--End of row-->
+            </div> <!--End of container-->
+
+            <div class="container">
+                <!-- Bottom Wellcome -->
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 welcome_box w1">
+                        <div class="image-holder yellow_bg">
+                            <div class="image-inner">
+                                <img src="img/w1.png">
+                            </div>
+                        </div>
+                        <a href="" class="text-box green_bg">
+                            <h5> Make a Donation </h5>
+                            <p>Your small efforts will make a difference in the life of the people who are less fortunate than you </p>
+                            <div class="plus_model yellow_bg">
+                                +
+                            </div>
+                        </a>
+                    </div> <!--End of Wellcome box-1 -->
+
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 welcome_box w2">
+                        <div class="image-holder pink_bg">
+                            <div class="image-inner">
+                                <img src="img/w2.png">
+                            </div>
+                        </div>
+                        <a href="" class="text-box blue_bg" data-toggle="modal" onclick="myFunction('Become a Volunteer')">
+                            <h5> Become a Volunteer </h5>
+                            <p>
+                                You not only can support us financially but also volunteer for different events to exhibit your
+                                dedication to our mission
+                            </p>
+                            <div class="plus_model pink_bg">
+                                +
+                            </div>
+                        </a>
+                    </div> <!--End of Wellcome box-2 -->
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 welcome_box w3">
+                        <div class="image-holder greenl_bg">
+                            <div class="image-inner">
+                                <img src="img/w3.png">
+                            </div>
+                        </div>
+                        <a href="" class="text-box Purple_bg" data-toggle="modal" onclick="myFunction('Help Educate')">
+                            <h5> Help Educate</h5>
+                            <p>One teacher, one pen and one book can change the world</p>
+                            <div class="plus_model greenl_bg">
+                                +
+                            </div>
+                        </a>
+                    </div> <!--End of Wellcome box-3 -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 welcome_box w4">
+                        <div class="image-holder red_bg">
+                            <div class="image-inner">
+                                <img src="img/w4.png">
+                            </div>
+                        </div>
+                        <a href="" class="text-box orange_bg" data-toggle="modal" onclick="myFunction('Save a Life')">
+                            <h5> Save a Life </h5>
+                            <p>
+                                Please contribute to saving a life who is fighting diseases for long, this might be their last
+                                chance
+                            </p>
+                            <div class="plus_model red_bg">
+                                +
+                            </div>
+                        </a>
+                    </div> <!--End of Wellcome box-4 -->
+                    <div class="modal" id="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header bg-primary text-light">
+                                    <h4 id="modalHeader">SAF Customer Care</h4>
+                                    <button type="button" class="close text-danger" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body lightgray_bg">
+                                    <form action="" id="form1">
+                                        <div class="form-group">
+                                            <label for="name">Name:</label>
+                                            <input type="text" class="form-control" id="name" required="" autocomplete="off" pattern="[A-Za-z]{3,15}" title="Name Should be between 3 to 15 character.">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="num">Number:</label>
+                                            <input type="text" class="form-control" id="num" required="" autocomplete="off" pattern="[1-9]{9,14}" title="Number Should be between 9 to 14 character.">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">Email address:</label>
+                                            <input type="email" class="form-control" id="email" autocomplete="off" required="" pattern="[A-Za-z._%+-]+[A-Za-z0-9._%+-]+[A-Za-z.-]+\.[a-z]{2,4}">
+                                        </div>
+                                        <div class="form-inline">
+                                            <select name="Gender" class="form-control">
+                                                <option>Gender</option>
+                                                <option value="Student">Male</option>
+                                                <option value="Employee">Female</option>
+                                            </select>
+                                            <select name="Profession" class="form-control ml-5">
+                                                <option>Profession</option>
+                                                <option value="Student">Student</option>
+                                                <option value="Employee">Employee</option>
+                                                <option value="Unemployed">Unemployed</option>
+                                            </select>
+                                        </div>
+                                        <!-- 								<div>
+                                                                        <label>Write your message:</label>
+                                                                        <textarea name="message" rows="4" placeholder="Write Your message" class="form-control">
+                                                                        </textarea>
+                                                                    </div> -->
+                                    </form>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <div class="my-2" align="right">
+                                            <input type="submit" class="btn btn-primary" name="submit" form="form1">
+                                        </div>
+                                    </div>
+
+                                </div> <!--End of Modal Content-->
+                            </div> <!--End of Modal Dialog-->
+                        </div>
+                        <!--End of modal -->
+                    </div> <!--End of Bottom wellcome row-->
+                </div> <!--End of Bottom wellcome container-->
+        </section> <!--End of Bottom wellcome section-->
+      <section class="project-section">
+            <div class="container">
+                <!--Top project-section -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="content">
+                            <h2>Projects</h2>
+                            <p>
+                                The causes we have instilled our energies and events <br />
+                                to make this community, a better community for <br /> our people and their environment
+                            </p>
+                        </div> <!--End of content-->
+                    </div> <!--End of col-md-12-->
+                </div> <!--End of row-->
+            </div> <!--End of container-->
+
+            <div class="container-fluid project_bottom">
+                <!--Bottom project-section -->
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 project">
+                        <a href="">
+                            <img src="img/c1.jpg" class="img">
+                            <h2>Sahibzada Fazal Rahman Charity Hospital</h2>
+                            <div class="plus_model2">
+                                +
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 project">
+                        <a href="">
+                            <img src="img/c2.jpg" class="img">
+                            <h2>Thar Hospital</h2>
+                            <div class="plus_model2">
+                                +
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 project">
+                        <a href="">
+                            <img src="img/c3.jpg" class="img">
+                            <h2>SAF Schools Initiative</h2>
+                            <div class="plus_model2">
+                                +
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 project">
+                        <a href="">
+                            <img src="img/c4.jpg" class="img">
+                            <h2>Tirah Valley: Supplying Water</h2>
+                            <div class="plus_model2">
+                                +
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 project">
+                        <a href="">
+                            <img src="img/c5.jpg" class="img">
+                            <h2>Tirah Valley: LuminAid Lights </h2>
+                            <div class="plus_model2">
+                                +
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 project">
+                        <a href="">
+                            <img src="img/c6.jpg" class="img">
+                            <h2>Creating a safe haven </h2>
+                            <div class="plus_model2">
+                                +
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="afridi-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 m-auto">
+                        <div class="afridi">
+                            <h2 class="blue_c font-weight-bold">Shahid Afridi <span class="float-right blue-c font-weight-bold">#hopenotout</span></h2>
+                            <div class="afridi_img">
+                                <img src="img/afridi1.jpg" class="img-fluid">
+                            </div>
+                            <div class="container-fluid py-3">
+                                <p>
+                                    Shahid Khan Afridi, Cricketer, philanthropist, extraordinaire. This man requires little introduction.
+                                    Former captain of the Pakistan national cricket team, well known for his amazing performance in the
+                                    cricket
+                                    field he has touched the hearts of many Pakistanis. Affectionately known nation-wide as ‘boom-boom’,
+                                    Shahid Afridi,
+                                    through his philanthropic work has shown that he is a true captain both on the cricket field and off
+                                    of it.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- <img src="img/afridi.png" class="img-fluid -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="col-12 my-5 cyan_c" align="center">
+            <h2>
+                Exclusively arranged events on <br /> building
+                a better tomorrow for people
+            </h2>
+        </div>
+
+
+        <!-- Image Gallery -->
+        <div class="container-fluid event">
+            <div class="row">
+                <div class="col-lg-6 col-md-12  border py-5 px-5">
+                    <h2 class="purple_c font-weight-bold">
+                        SAF &#038; Muslim<br />
+                        Aid UK organised<br />
+                        fund-raising event
+                    </h2>
+                    <p class="py-5 event_p">SAF in collaboration with Muslim Aid UK organised star-studded fund-raising events in different cities of UK (London, Birmingham, Luton and Bradford), supporting SAF’s initiatives around education and clean water.</p>
+                    <div class="event_line"></div>
+                </div> <!--End of 1st Column-->
+                <div class="col-lg-6 col-md-12 px-0 img-gallery">
+                    <div class="slides">
+                        <div class="slideText">1/4</div>
+                        <img src="img/fr1.jpg" width="100%">
+                    </div>
+                    <div class="slides">
+                        <div class="slideText">2/4</div>
+                        <img src="img/fr2.jpg" width="100%">
+                    </div>
+                    <div class="slides">
+                        <div class="slideText">3/4</div>
+                        <img src="img/fr3.jpg" width="100%">
+                    </div>
+                    <div class="slides">
+                        <div class="slideText">4/4</div>
+                        <img src="img/fr4.jpg" width="100%">
+                    </div>
+
+                    <!--Next and Prev Slide btn-->
+                    <a class="prev" onclick="plusSlides(-1)" style="color: white;">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)" style="color: white;">&#10095;</a>
+
+                    <!--Thumbnail images-->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-3  px-0 thumbnail">
+                                <img src="img/fr1.jpg" width="100%" onclick="currentSlide(1)">
+                            </div>
+                            <div class="col-3  px-0 thumbnail">
+                                <img src="img/fr2.jpg" width="100%" onclick="currentSlide(2)">
+                            </div>
+                            <div class="col-3  px-0 thumbnail">
+                                <img src="img/fr3.jpg" width="100%" onclick="currentSlide(3)">
+                            </div>
+                            <div class="col-3  px-0 thumbnail">
+                                <img src="img/fr4.jpg" width="100%" onclick="currentSlide(4)">
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--End of 2nd Column-->
+            </div> <!--End of image gallery row-->
+        </div> <!--End of image gallery container-->
+        <!-- Image Gallery -->
+        <div class="container-fluid event">
+            <div class="row">
+                <div class="col-lg-6 col-md-12  border py-5 px-5">
+                    <h2 class="purple_c font-weight-bold">
+                        Tirah Valley Ration<br>
+                        Distribution &<br>
+                        Medical Camp
+                    </h2>
+                    <p class="py-5 event_p">SAF Project Director Mr. Iqbal Afridi distributed gifts and ration to the IDPs and locals of Tirah Valley in Ramzan 2018.</p>
+                    <div class="event_line"></div>
+                </div> <!--End of 1st Column-->
+                <div class="col-lg-6 col-md-12 px-0 img-gallery">
+                    <div class="slides2">
+                        <div class="slideText">1/4</div>
+                        <img src="img/M&D1.jpg" width="100%">
+                    </div>
+                    <div class="slides2">
+                        <div class="slideText">2/4</div>
+                        <img src="img/M&D2.jpg" width="100%">
+                    </div>
+                    <div class="slides2">
+                        <div class="slideText">3/4</div>
+                        <img src="img/M&D3.jpg" width="100%">
+                    </div>
+                    <div class="slides2">
+                        <div class="slideText">4/4</div>
+                        <img src="img/M&D5.jpg" width="100%">
+                    </div>
+
+                    <!--Next and Prev Slide btn-->
+                    <a class="prev" onclick="plusSlides2(-1)" style="color: white;">&#10094;</a>
+                    <a class="next" onclick="plusSlides2(1)" style="color: white;">&#10095;</a>
+
+                    <!--Thumbnail images-->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-3  px-0 thumbnail2">
+                                <img src="img/M&D1.jpg" width="100%" onclick="currentSlide2(1)">
+                            </div>
+                            <div class="col-3  px-0 thumbnail2">
+                                <img src="img/M&D2.jpg" width="100%" onclick="currentSlide2(2)">
+                            </div>
+                            <div class="col-3  px-0 thumbnail2">
+                                <img src="img/M&D3.jpg" width="100%" onclick="currentSlide2(3)">
+                            </div>
+                            <div class="col-3  px-0 thumbnail2">
+                                <img src="img/M&D5.jpg" width="100%" onclick="currentSlide2(4)">
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--End of 2nd Column-->
+            </div> <!--End of image gallery row-->
+        </div> <!--End of image gallery container-->
+        <!-- Image Gallery -->
+        <div class="container-fluid event mb-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-12  border py-5 px-5">
+                    <h2 class="purple_c font-weight-bold">
+                        Iftar camps in Ajman
+                    </h2>
+                    <p class="py-5 event_p">The Prophet (PBUH)said: “Whoever gives food to a fasting person with which to break his fast, will have a reward equal to his, without it detracting in the slightest from the reward of the fasting person.”</p>
+                    <div class="event_line"></div>
+                </div> <!--End of 1st Column-->
+                <div class="col-lg-6 col-md-12 px-0 img-gallery">
+                    <div class="slides3">
+                        <div class="slideText">1/4</div>
+                        <img src="img/i2.jpeg" width="100%" height="500px">
+                    </div>
+                    <div class="slides3">
+                        <div class="slideText">2/4</div>
+                        <img src="img/i3.jpeg" width="100%" height="500px">
+                    </div>
+                    <div class="slides3">
+                        <div class="slideText">3/4</div>
+                        <img src="img/i1.jpeg" width="100%" height="500px">
+                    </div>
+
+                    <!--Next and Prev Slide btn-->
+                    <a class="prev" onclick="plusSlides3(-1)" style="color: white;">&#10094;</a>
+                    <a class="next" onclick="plusSlides3(1)" style="color: white;">&#10095;</a>
+
+                    <!--Thumbnail images-->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-4  px-0 thumbnail3">
+                                <img src="img/i3.jpeg" width="100%" height="180px" onclick="currentSlide3(1)">
+                            </div>
+                            <div class="col-4  px-0 thumbnail3">
+                                <img src="img/i2.jpeg" width="100%" height="180px" onclick="currentSlide3(2)">
+                            </div>
+                            <div class="col-4  px-0 thumbnail3">
+                                <img src="img/i1.jpeg" width="100%" height="180px" onclick="currentSlide3(3)">
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--End of 2nd Column-->
+            </div> <!--End of image gallery row-->
+        </div> <!--End of image gallery container-->
+
+
+        <section class="quote">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6 quote-hover mt-3">
+                        <div class="quote-img" style="background: url(img/ik.jpg) no-repeat scroll left center / 100% 100%; ">
+                            <div class="quote-text sky_bg">
+                                <div class="quote-text-box">
+                                    <p>
+                                        The hospital that SAF has built-in Kohat is for a great cause. I would
+                                        request all of you to help SAF with great passion. It is very motivating to see that those who have fame and respect in Pakistan are doing something for the poor and the needy and not turning a blind eye to these people.
+                                    </p>
+                                </div>
+                                <div class="text-box-bottom">
+                                    <div class="text-box-bottom-line"></div>
+                                    <h5>Imran Khan</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 quote-hover mt-3">
+                        <div class="quote-img" style="background: url(img/sw.jpg) no-repeat scroll left center /100% 100%; ">
+                            <div class="quote-text bluel_bg">
+                                <div class="quote-text-box">
+                                    <p>My sons say we don't wanna be a leg-spinner like you, we wanna be like Boom Boom Shahid Afridi</p>
+                                </div>
+                                <div class="text-box-bottom">
+                                    <div class="text-box-bottom-line"></div>
+                                    <h5>Shane Warne</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 quote-hover mt-3">
+                        <div class="quote-img" style="background: url(img/bg.jpg) no-repeat scroll left center /100% 100%; ">
+                            <div class="quote-text sky_bg">
+                                <div class="quote-text-box">
+                                    <p>Great to have support of leading Pakistani wicket taker Shahid Afridi, who recently joined Rotary’s “This Close” campaign to support the fight to end</p>
+                                </div>
+                                <div class="text-box-bottom">
+                                    <div class="text-box-bottom-line"></div>
+                                    <h5>Bill Gates</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 quote-hover mt-3">
+                        <div class="quote-img" style="background: url(img/st.jpg) no-repeat scroll left center /100% 100%; ">
+                            <div class="quote-text bluel_bg">
+                                <div class="quote-text-box">
+                                    <p>I would like to congratulate Shahid Afridi for all the good work, and I will request others to support the foundation, it is a noble cause.</p>
+                                </div>
+                                <div class="text-box-bottom">
+                                    <div class="text-box-bottom-line"></div>
+                                    <h5>Sachin Tendulkar</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 quote-hover mt-3">
+                        <div class="quote-img" style="background: url(img/ac.jpg) no-repeat scroll left center /100% 100%; ">
+                            <div class="quote-text sky_bg">
+                                <div class="quote-text-box">
+                                    <p>Afridi is the firepower of Pakistan and has been of great help to humanity through his foundation</p>
+                                </div>
+                                <div class="text-box-bottom">
+                                    <div class="text-box-bottom-line"></div>
+                                    <h5>Alastair Cook</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 quote-hover mt-3">
+                        <div class="quote-img" style="background: url(img/wa.jpg) no-repeat scroll left center /100% 100%; ">
+                            <div class="quote-text bluel_bg">
+                                <div class="quote-text-box">
+                                    <p>Afridi is unpredictable and I am amazed to see the success and growth of a noble humanitarian cause.</p>
+                                </div>
+                                <div class="text-box-bottom">
+                                    <div class="text-box-bottom-line"></div>
+                                    <h5>Wasim Akram</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!--End of Quote Section-->
+    </main> <!--End of Main-Body-->
+
+    <br />
+    <br />
+
+
+    <!--Top DonateUs-section -->
+    <section class="wellcome-section pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content">
+                        <h2>Make a Donation</h2>
+
+                        <p>
+                            We are effectively trying to improve billions of lives every year. We would love to utilize your
+                            donations and create an impact in the society. We make sure every penny is well spent.
+                        </p>
+                    </div> <!--End of content-->
+                </div>	<!--End of col-md-12-->
+            </div> <!--End of row-->
+        </div> <!--End of container-->
+    </section>
+
+    <!--Bank-section -->
+    <section class="project-section ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content">
+                        <img src="img/DBI.png">
+                        <h2 class="pt-3">DUBAI ISLAMIC BANK</h2>
+                    </div> <!--End of content-->
+                </div> <!--End of col-md-12-->
+            </div> <!--End of row-->
+        </div> <!--End of container-->
+        <!--Account Info-->
+        <div class="account-table container my-5">
+            <h3 align="left">SHAHID KHAN AFRIDI FOUNDATION- ZAKAT ACCOUNTS</h3>
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Account Numbers</th>
+                        <th>Title</th>
+                        <th>IBAN Number</th>
+                        <th>Currency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>009-0471290001</td>
+                        <td>SHAHID KHAN AFRIDI FOUNDATION - ZAKAT</td>
+                        <td>PK54DUIB0000000471290001</td>
+                        <td>PKR</td>
+                    </tr>
+                    <tr>
+                        <td>009-0471290002</td>
+                        <td>SHAHID KHAN AFRIDI FOUNDATION - ZAKAT</td>
+                        <td>PK27DUIB0000000471290002</td>
+                        <td>USD</td>
+                    </tr>
+                    <tr>
+                        <td>009-0471290003</td>
+                        <td>SHAHID KHAN AFRIDI FOUNDATION - ZAKAT</td>
+                        <td>PK97DUIB0000000471290003</td>
+                        <td>AED</td>
+                    </tr>
+                    <tr>
+                        <td>009-0471290004</td>
+                        <td>SHAHID KHAN AFRIDI FOUNDATION - ZAKAT</td>
+                        <td>PK70DUIB0000000471290004</td>
+                        <td>EURO</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="account-table container my-5">
+            <h3 align="left">SHAHID KHAN AFRIDI FOUNDATION- CHARITY ACCOUNTS</h3>
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Account Numbers</th>
+                        <th>Title</th>
+                        <th>IBAN Number</th>
+                        <th>Currency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0471290005</td>
+                        <td>SHAHID KHAN AFRIDI FOUNDATION - CHARITY</td>
+                        <td>PK54DUIB0000000471290005</td>
+                        <td>PKR</td>
+                    </tr>
+                    <tr>
+                        <td>0471290006</td>
+                        <td>SHAHID KHAN AFRIDI FOUNDATION - CHARITY</td>
+                        <td>PK27DUIB0000000471290006</td>
+                        <td>USD</td>
+                    </tr>
+                    <tr>
+                        <td>0471290007</td>
+                        <td>SHAHID KHAN AFRIDI FOUNDATION - CHARITY</td>
+                        <td>PK97DUIB0000000471290007</td>
+                        <td>AED</td>
+                    </tr>
+                    <tr>
+                        <td>0471290008</td>
+                        <td>SHAHID KHAN AFRIDI FOUNDATION - CHARITY</td>
+                        <td>PK70DUIB0000000471290008</td>
+                        <td>EURO</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="account-info container">
+            <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <th>SWIFT Code for all accounts:</th>
+                        <td>DUIBPKKA</td>
+                    </tr>
+                    <tr>
+                        <th>Branch Code:</th>
+                        <td>009</td>
+                    </tr>
+                    <tr>
+                        <th>Branch Address:</th>
+                        <td>Dubai Islamic Bank Main Branch 1st Floor Hassan Chambers, Dc-7 Block 7 Clifton, Karachi.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+
+    <!--Bank-section -->
+    <section class="project-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content">
+                        <img src="img/ABB.png">
+                        <h2 class="pt-3">Al Baraka BANK</h2>
+                    </div> <!--End of content-->
+                </div> <!--End of col-md-12-->
+            </div> <!--End of row-->
+        </div> <!--End of container-->
+        <!--Account Info-->
+        <div class="account-table container my-5">
+            <h3 align="left">SHAHID KHAN AFRIDI FOUNDATION- ZAKAT ACCOUNTS</h3>
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Account Numbers</th>
+                        <th>Title</th>
+                        <th>IBAN Number</th>
+                        <th>Currency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0102416262012</td>
+                        <td>SHAHID KHAN AFRIDI FOUNDATION - ZAKAT</td>
+                        <td>PK25AIIN0001392416262056</td>
+                        <td>PKR</td>
+                    </tr>
+                    <tr>
+                        <td>0288416262024</td>
+                        <td>SHAHID KHAN AFRIDI FOUNDATION - ZAKAT</td>
+                        <td>PK25AIIN0001392416262056</td>
+                        <td>USD</td>
+                    </tr>
+                    <tr>
+                        <td>0490416262043</td>
+                        <td>SHAHID KHAN AFRIDI FOUNDATION - ZAKAT</td>
+                        <td>PK25AIIN0001392416262056</td>
+                        <td>AED</td>
+                    </tr>
+                    <tr>
+                        <td>1392416262056</td>
+                        <td>SHAHID KHAN AFRIDI FOUNDATION - ZAKAT</td>
+                        <td>PK25AIIN0001392416262056</td>
+                        <td>EURO</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="account-table container my-5">
+            <h3 align="left">SHAHID KHAN AFRIDI FOUNDATION- CHARITY ACCOUNTS</h3>
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Account Numbers</th>
+                        <th>Title</th>
+                        <th>IBAN Number</th>
+                        <th>Currency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0102416262012</td>
+                        <td>SHAHID KHAN AFRIDI FOUNDATION - CHARITY</td>
+                        <td>PK64AIIN0001392416064056</td>
+                        <td>PKR</td>
+                    </tr>
+                    <tr>
+                        <td>0288416262024</td>
+                        <td>SHAHID KHAN AFRIDI FOUNDATION - CHARITY</td>
+                        <td>PK64AIIN0001392416064056</td>
+                        <td>USD</td>
+                    </tr>
+                    <tr>
+                        <td>0490416262043</td>
+                        <td>SHAHID KHAN AFRIDI FOUNDATION - CHARITY</td>
+                        <td>PK64AIIN0001392416064056</td>
+                        <td>AED</td>
+                    </tr>
+                    <tr>
+                        <td>1392416262056</td>
+                        <td>SHAHID KHAN AFRIDI FOUNDATION - CHARITY</td>
+                        <td>PK64AIIN0001392416064056</td>
+                        <td>EURO</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="account-info container">
+            <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <th>SWIFT/BIC Code for all accounts</th>
+                        <td>AIINPKKAXXX</td>
+                    </tr>
+                    <tr>
+                        <th>Branch Code:</th>
+                        <td>0108</td>
+                    </tr>
+                    <tr>
+                        <th>Branch Address:</th>
+                        <td>DHA SHAHBAZ BRANCH, ADD: PLOT # 15-C, SHAHBAZ COMMERCIAL, PHASE-VI, D.H.A., KARACHI.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <br />
+    <br />
+    <br />
+    <div class="container-fluid">
+        <!--Contact Us image-->
+        <div class="row">
+            <div class="col-12 contact-us-img img-fluid" align="center">
+            </div>
+        </div>
+    </div>
+
+
+
+    <section>
+        <!--Chat Section-->
+        <div class="container my-5">
+            <div class="row ">
+                <div class="col-12" align="center">
+                    <h1>Contact Us</h1>
+                    <p>
+                        We are here to to provide you with more information, answer any questions <br>
+                        Your voice matter to us.
+                    </p>
+                </div>
+                <div class="col-md-6 col-xs-12" align="center">
+                    <img src="img/mailus.png" alt="Mail us" width="70px" height="100px" class="py-3">
+                    <h4>Customer Support</h4>
+                    <p>Get in touch with customer support<br />We are here to help you.</p>
+                    <!-- <button type="button" class="btn btn-outline-primary ">Customer Support</button> -->
+                    <a href="mailto:info@shahidafridifoundation.org" class="btn btn-outline-primary">Customer Support</a>
+                </div> <!--End of Customer suport column-->
+                <div class="col-md-6 col-xs-12" align="center">
+                    <img src="img/livechat.png" alt="livechat" width="70px" height="100px" class="py-3">
+                    <h4>Live Chat</h4>
+                    <p>Get in touch with us<br />We are here to help you.</p>
+                    <div>
+                        <button type="button" class="btn btn-outline-primary px-4" data-toggle="modal" data-target="#modal">Live Chat</button>
+
+                        <!--Modal -->
+                        <div class="modal" id="modal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header bg-primary text-light">
+                                        <h4>SAF Customer Care</h4>
+                                        <button type="button" class="close text-danger" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body lightgray_bg">
+                                        <form action="" id="form1">
+                                            <div class="form-group">
+                                                <label for="name">Name:</label>
+                                                <input type="text" class="form-control" id="name" required="" pattern="[A-Za-z ]{3,15}" autocomplete="off" title="Name Should be between 3 to 15 character.">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="num">Number:</label>
+                                                <input type="text" class="form-control" id="num" required="" pattern="[0-9]{9,14}" autocomplete="off">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email">Email address:</label>
+                                                <input type="email" class="form-control" id="email" required="" autocomplete="off" pattern="[A-Za-z._%+-]+[A-Za-z0-9._%+-]+[A-Za-z.-]+\.[a-z]{2,4}">
+                                            </div>
+                                            <div>
+                                                <label>Write your message:</label>
+                                                <textarea name="message" rows="4" placeholder="Write Your message" class="form-control" maxlength="500">
+												</textarea>
+                                            </div>
+                                        </form>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <div class="my-2" align="right">
+                                                <input type="submit" class="btn btn-primary" name="submit" form="form1">
+                                            </div>
+                                        </div>
+
+                                    </div> <!--End of Modal Content-->
+                                </div> <!--End of Modal Dialog-->
+                            </div>
+                            <!--End of modal -->
+                        </div>
+                    </div><!--End of live chat column-->
+                </div> <!--End of chat Row-->
+            </div> <!--End of chat container-->
+    </section> <!--End of Chat Section-->
+
+
+    <section>
+        <!--Adress Section-->
+        <div class="container-fluid">
+            <div class="row lightgray_bg border">
+                <!--Gernal Adress-->
+                <div class="col-md-6 col-xs-12 my-5 ">
+                    <div class="px-3">
+                        <h3>SAF Headquarter</h3>
+                        <p>Shahid Afridi Foundation<br />Adress: 204 E.I Lines Dr.Daud Pota Road Karachi - Pakistan</p>
+                    </div>
+                    <div class="px-3">
+                        <h3>General Contact</h3>
+                        <p>
+                            Landline Number: 021-35634401 / 021-35634402 / 021-35634403<br />
+                            UAN: 111 000 SAF (723)<br /> info@shahidafridifoundation.org
+                        </p>
+                    </div>
+                </div>
+                <!--Map Section-->
+                <div class="col-md-6 col-xs-12 map-img px-0 border">
+                    <!-- <img src="img/map.png" width="100%"> -->
+
+                    <div class="container bg-dark map text-light" align="center">
+                        <p>
+                            <strong><i class="fa fa-map-marker"></i></strong> <strong>Shahid Afridi Foundation<br /></strong>
+                            <strong>Headquarter <br /></strong>
+                        </p>
+                        <p>204 E.I Lines Dr.Daud Pota Road Karachi - Pakistan</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!--End of Map Section-->
+
+
+
+
+
+
+
+    <footer class="blackl_bg font-small pt-4 mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-info">
+                    <div class="footer-content">
+                        <a href="main.html"><img src="img/navbar_icon.png" width="70px"></a>
+                        <p class="text-light">
+                            Shahid Afridi Foundation (SAF) is committed to changing the lives of people however whatever we do would be incomplete without your love and support. The foundation works like a family, a family dedicated to providing better healthcare, education and clean drinking water to every member of society and become a ray of hope for children, youngsters and adults alike.
+                        </p>
+                    </div> <!--End of footer content-->
+                </div> <!--End of footer 1st Col-->
+                <div class="col-md-5">
+                    <div class="footer-icon-text">
+                        <h3 class="text-light">Follow Us</h3>
+                        <div class="footer-hr-line"></div>
+                    </div>
+                    <div class="footer-icon mt-2">
+                        <!--follow us icon-->
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item mt-1 bluel_bg">
+                                <a href="" class="mx-1">
+                                    <i class="fa fa-facebook text-light"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item mt-1 sky_bg">
+                                <a href="" class="mx-1">
+                                    <i class="fa fa-twitter text-light"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item mt-1 redl_bg">
+                                <a href="" class="mx-1">
+                                    <i class="fa fa-google-plus text-light"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item mt-1 sky_bg">
+                                <a href="" class="mx-1">
+                                    <i class="fa fa-linkedin text-light"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item mt-1" style="background-color: #e95950;">
+                                <a href="" class="mx-1">
+                                    <i class="fa fa-instagram text-light"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item mt-1" style="background-color: #cb2027;">
+                                <a href="" class="mx-1">
+                                    <i class="fa fa-pinterest text-light"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div> <!--End of footer-icon -->
+                </div> <!--End of footer 2nd Col-->
+                <div class="col-md-3">
+                    <div class="footer-link-text">
+                        <h3 class="text-light">Useful Links</h3>
+                        <div class="footer-hr-line"></div>
+                    </div>
+                    <div class="footer-link">
+                        <ul class="list-unstyled text-light">
+                            <li class="py-2 ml-2"><a href="" class="text-light">About Us</a></li>
+                            <li class="py-2 ml-2"><a href="" class="text-light">Contact Us</a></li>
+                            <li class="py-2 ml-2"><a href="" class="text-light">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> <!--End of footer row-->
+        </div> <!--End of footer container-->
+    </footer>
+    <div class="container-fluid">
+        <!--Bottom-Footer-->
+        <div class="row">
+            <div class="text-light footer-bottom py-3 black_bg">
+                <p>Copyright &copy Shahid Afridi Foundation 2021 All Rights Reserved</p>
+            </div>
+        </div>
+    </div><!--End of Bottom Footer-->
+    <!-- JavaScript Code -->
+    <script type="text/javascript">
+
+// 	// Wellcome Box Modal
+// 	function myFunction(modalHeader)
+// 	{
+// 		$('#modalHeader').html(modalHeader);
+// 	}
+
+// 	// Search
+// 	function mySearch() {
+//   var input, filter, ul, li, a, i;
+//   input = document.getElementById("search");
+//   filter = input.value.toUpperCase();
+//   ul = document.getElementById("myMenu");
+//   li = ul.getElementsByTagName("li");
+//   for (i = 0; i < li.length; i++) {
+//     a = li[i].getElementsByTagName("a")[0];
+//     if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+//       li[i].style.display = "block";
+//     } else {
+//       li[i].style.display = "none";
+//     }
+//   }
+// }
+
+
+    </script>
+</body>
+</html>
